@@ -1,18 +1,12 @@
 // src/components/Features.js
 import React from "react";
+import "./Features.css"; // Import the updated CSS
 
 const Features = () => {
   return (
-    <div
-      style={{
-        padding: "20px",
-        background: "#fff",
-        borderRadius: "8px",
-        boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-      }}
-    >
-      <h2 style={{ textAlign: "center", color: "#333" }}>Features</h2>
-      <ul style={{ lineHeight: "1.6", color: "#555" }}>
+    <div className="features-container">
+      <h2 className="features-title">Features</h2>
+      <ul className="features-list">
         <li>
           <strong>Event Creation:</strong> Easily create new events with
           detailed information.

@@ -1,0 +1,60 @@
+/* Services.css */
+.services-container {
+  padding: 30px;
+  background: linear-gradient(
+    135deg,
+    #f7f9fc,
+    #e3eaf5
+  ); /* Light gradient background */
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.services-container:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.services-title {
+  text-align: center;
+  color: #2c3e50; /* Dark grayish blue */
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.services-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #4a5568; /* Cool gray */
+}
+
+.services-list li {
+  margin-bottom: 15px;
+  padding-left: 30px; /* Space for icon */
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.services-list li::before {
+  content: "✓"; /* Checkmark icon */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #1abc9c; /* Bright teal color */
+  font-size: 20px;
+}
+
+.services-list li:hover {
+  color: #1abc9c; /* Change text color on hover */
+  cursor: pointer;
+}
+
+.services-list li strong {
+  color: #2c3e50; /* Dark grayish blue for strong text */
+  font-weight: 600;
+}

@@ -1,21 +1,15 @@
 // src/components/Contact.js
 import React from "react";
+import "./Contact.css"; // Import the new CSS file
 
 const Contact = () => {
   return (
-    <div
-      style={{
-        padding: "20px",
-        background: "#fff",
-        borderRadius: "8px",
-        boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-      }}
-    >
-      <h2 style={{ textAlign: "center", color: "#333" }}>Contact Us</h2>
-      <p style={{ color: "#555" }}>
+    <div className="contact-container">
+      <h2 className="contact-title">Contact Us</h2>
+      <p className="contact-text">
         We’d love to hear from you! Here are our contact details:
       </p>
-      <ul style={{ lineHeight: "1.6", color: "#555" }}>
+      <ul className="contact-list">
         <li>
           <strong>Email:</strong> contact@eventmanagement.com
         </li>
@@ -32,7 +26,6 @@ const Contact = () => {
         <li>
           <a
             href="https://www.facebook.com/eventmanagement"
-            style={{ color: "#007bff" }}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +35,6 @@ const Contact = () => {
         <li>
           <a
             href="https://www.twitter.com/eventmanagement"
-            style={{ color: "#007bff" }}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +44,6 @@ const Contact = () => {
         <li>
           <a
             href="https://www.instagram.com/eventmanagement"
-            style={{ color: "#007bff" }}
             target="_blank"
             rel="noopener noreferrer"
           >

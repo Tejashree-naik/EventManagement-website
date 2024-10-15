@@ -1,0 +1,57 @@
+/* Contact.css */
+.contact-container {
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f2f5, #dfe4ea); /* Soft gradient background */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s;
+  }
+  
+  .contact-container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contact-text {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #4a5568;
+    font-size: 18px;
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+  }
+  
+  .contact-list li strong {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .contact-list a {
+    color: #1abc9c;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-list a:hover {
+    color: #16a085;
+  }
+  
