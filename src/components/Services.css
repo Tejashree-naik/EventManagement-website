@@ -1,60 +1,59 @@
 /* Services.css */
 .services-container {
   padding: 30px;
-  background: linear-gradient(
-    135deg,
-    #f7f9fc,
-    #e3eaf5
-  ); /* Light gradient background */
+  background: linear-gradient(135deg, #f0f2f5, #dfe4ea);
   border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .services-container:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .services-title {
   text-align: center;
-  color: #2c3e50; /* Dark grayish blue */
+  color: #a64d4d; /* Soft, elegant red */
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .services-list {
-  list-style: none; /* Remove default bullets */
+  list-style: none;
   padding: 0;
-  margin: 0;
-  line-height: 1.8;
+  color: #444;
   font-size: 18px;
-  color: #4a5568; /* Cool gray */
+  line-height: 1.8;
 }
 
 .services-list li {
   margin-bottom: 15px;
-  padding-left: 30px; /* Space for icon */
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.services-list li::before {
-  content: "✓"; /* Checkmark icon */
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #1abc9c; /* Bright teal color */
-  font-size: 20px;
-}
-
-.services-list li:hover {
-  color: #1abc9c; /* Change text color on hover */
-  cursor: pointer;
 }
 
 .services-list li strong {
-  color: #2c3e50; /* Dark grayish blue for strong text */
-  font-weight: 600;
+  color: #7b2c2c; /* Deep red for bold text */
+}
+
+.services-list li:before {
+  content: "🌟"; /* Decorative star icon */
+  margin-right: 8px;
+}
+
+.services-list li:hover {
+  color: #d46a6a; /* Hover effect to enhance interaction */
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    padding: 20px;
+  }
+
+  .services-title {
+    font-size: 24px;
+  }
+
+  .services-list li {
+    font-size: 16px;
+  }
 }

@@ -5,47 +5,47 @@ import "./Features.css"; // Import the updated CSS
 const Features = () => {
   return (
     <div className="features-container">
-      <h2 className="features-title">Features</h2>
+      <h2 className="features-title">Decoration Features</h2>
       <ul className="features-list">
         <li>
-          <strong>Event Creation:</strong> Easily create new events with
-          detailed information.
+          <strong>Custom Themes:</strong> Choose from a variety of themes to
+          match your event's style and atmosphere.
         </li>
         <li>
-          <strong>RSVP Management:</strong> Manage attendee responses for
-          events.
+          <strong>Lighting Setup:</strong> Professional lighting arrangements to
+          enhance the ambiance.
         </li>
         <li>
-          <strong>Ticketing System:</strong> Sell and manage tickets for your
-          events.
+          <strong>Floral Arrangements:</strong> Beautiful and artistic floral
+          decorations to elevate the visual appeal.
         </li>
         <li>
-          <strong>Notifications:</strong> Send reminders and updates to
-          attendees.
+          <strong>Table & Seating Design:</strong> Elegant table setups with
+          custom linens and seating arrangements.
         </li>
         <li>
-          <strong>Event Calendar:</strong> View upcoming events in a calendar
-          format.
+          <strong>Backdrop Design:</strong> Stunning backdrop designs for photo
+          booths and stage areas.
         </li>
         <li>
-          <strong>User Registration/Login:</strong> Secure accounts for users to
-          manage events.
+          <strong>Centerpieces:</strong> Unique and creative centerpieces
+          tailored to the theme of the event.
         </li>
         <li>
-          <strong>Feedback Collection:</strong> Gather feedback from attendees
-          post-event.
+          <strong>Balloon Decorations:</strong> Colorful balloon arrangements
+          for all types of celebrations.
         </li>
         <li>
-          <strong>Social Media Integration:</strong> Share events on social
-          media platforms.
+          <strong>Outdoor Décor:</strong> Special decorations for outdoor
+          events, including arches and entranceways.
         </li>
         <li>
-          <strong>Analytics Dashboard:</strong> Gain insights into event
-          attendance and performance.
+          <strong>Stage Design:</strong> Custom stage decorations for
+          performances, speeches, and special moments.
         </li>
         <li>
-          <strong>Collaboration Tools:</strong> Collaborate with team members on
-          event planning.
+          <strong>Special Effects:</strong> Smoke machines, confetti cannons,
+          and more to add excitement to the event.
         </li>
       </ul>
     </div>

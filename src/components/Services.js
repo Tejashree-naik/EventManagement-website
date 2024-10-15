@@ -1,51 +1,51 @@
 // src/components/Services.js
-import React from 'react';
-import './Services.css'; // Import the new CSS file
+import React from "react";
+import "./Services.css"; // Import the new CSS file
 
 const Services = () => {
   return (
     <div className="services-container">
-      <h2 className="services-title">Our Services</h2>
+      <h2 className="services-title">Our Event Decoration Services</h2>
       <ul className="services-list">
         <li>
-          <strong>Event Planning Consultation:</strong> Expert advice to plan
-          successful events.
+          <strong>Theme Consultation:</strong> Personalized consultation to help
+          you choose the perfect theme for your event.
         </li>
         <li>
-          <strong>Venue Booking:</strong> Help with finding and booking the
-          perfect venue.
+          <strong>Venue Decoration:</strong> Transforming your venue with
+          elegant decorations tailored to your theme.
         </li>
         <li>
-          <strong>Catering Services:</strong> Full catering options including
-          meal planning and service.
+          <strong>Floral Design:</strong> Custom floral arrangements to
+          complement your event style.
         </li>
         <li>
-          <strong>Event Promotion:</strong> Marketing strategies to promote your
-          events effectively.
+          <strong>Lighting Setup:</strong> Stunning lighting setups to enhance
+          the atmosphere and highlight key areas.
         </li>
         <li>
-          <strong>Ticket Sales Management:</strong> Solutions for managing online
-          ticket sales.
+          <strong>Table Styling:</strong> Elegant table settings including
+          centerpieces, linens, and place cards.
         </li>
         <li>
-          <strong>On-Site Event Support:</strong> Staff to assist during the
-          event for seamless execution.
+          <strong>Backdrop Design:</strong> Custom backdrops for photo areas,
+          stages, and focal points.
         </li>
         <li>
-          <strong>Audio/Visual Equipment Rental:</strong> Equipment rental
-          services for all event needs.
+          <strong>Balloon Decor:</strong> Creative balloon installations to add
+          a playful or elegant touch to your event.
         </li>
         <li>
-          <strong>Attendee Management:</strong> Tools for managing registrations
-          and check-ins.
+          <strong>Outdoor Event Decorations:</strong> Beautiful outdoor decor
+          for ceremonies, receptions, and entrances.
         </li>
         <li>
-          <strong>Feedback and Survey Services:</strong> Collect and analyze
-          attendee feedback.
+          <strong>Special Effects:</strong> Enhancing your event with special
+          effects such as fog machines, confetti, and more.
         </li>
         <li>
-          <strong>Post-Event Analysis:</strong> Reports on event performance and
-          insights for future improvements.
+          <strong>Custom Props & Installations:</strong> Unique props and
+          installations designed to wow your guests.
         </li>
       </ul>
     </div>
