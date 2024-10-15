@@ -9,8 +9,11 @@ const Card = styled.div`
   margin: 10px;
   background-color: #f9f9f9;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+
   &:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
 `;
 
@@ -18,8 +21,8 @@ const EventCard = ({ event, onClick }) => {
   return (
     <Card onClick={() => onClick(event)}>
       <h2>{event.name}</h2>
-      <p>{event.date}</p>
-      <p>{event.location}</p>
+      <p>Date: {event.date}</p>
+      <p>Location: {event.location}</p>
     </Card>
   );
 };

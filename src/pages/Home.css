@@ -1,0 +1,19 @@
+/* src/pages/Home.css */
+.welcome-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Make it bold */
+    color: #ffffff; /* Fallback text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adding a shadow */
+    letter-spacing: 2px; /* Spacing between letters */
+    text-transform: uppercase; /* Make text uppercase */
+    padding: 10px; /* Add some padding */
+    background: linear-gradient(45deg, #ff6f00, #ffcc00); /* Gradient background */
+    
+    /* Fallback for browsers that do not support background-clip */
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Ensure the text color is transparent for gradient effect */
+  }
+  
