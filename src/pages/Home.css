@@ -47,19 +47,6 @@
   animation: moveLeftRight 5s linear infinite; /* Left to right animation */
 }
 
-/* Keyframes for moving the heading left to right */
-@keyframes moveLeftRight {
-  0% {
-    transform: translateX(-100%); /* Start off-screen to the left */
-  }
-  50% {
-    transform: translateX(100%); /* Move to off-screen to the right */
-  }
-  100% {
-    transform: translateX(-100%); /* Return to start */
-  }
-}
-
 /* Flex container for other content */
 .flex-container {
   display: flex;
