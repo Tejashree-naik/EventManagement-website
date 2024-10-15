@@ -1,19 +1,69 @@
 /* src/pages/Home.css */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap"); /* Import the Lobster font */
+
+/* Main container styling */
+.home-container {
+  padding: 20px;
+  min-height: 100vh;
+  background-image: url("https://t4.ftcdn.net/jpg/08/45/60/09/360_F_845600967_fkFWdCPIUNOvWLqKSrSOchCYoMNCkXta.jpg"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Content wrapper to ensure text is above the overlay */
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  min-height: 70vh; /* Full height for centering */
+}
+
+/* Welcome heading styling with animation */
 .welcome-heading {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2.5rem; /* Adjust size as needed */
-    font-weight: bold; /* Make it bold */
-    color: #ffffff; /* Fallback text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adding a shadow */
-    letter-spacing: 2px; /* Spacing between letters */
-    text-transform: uppercase; /* Make text uppercase */
-    padding: 10px; /* Add some padding */
-    background: linear-gradient(45deg, #ff6f00, #ffcc00); /* Gradient background */
-    
-    /* Fallback for browsers that do not support background-clip */
-    -webkit-background-clip: text; /* For WebKit-based browsers */
-    background-clip: text; /* Standard property */
-    color: transparent; /* Ensure the text color is transparent for gradient effect */
+  font-family: "Lobster", cursive; /* Use the Lobster font */
+  font-size: 84px; /* Larger font size */
+  font-weight: bold;
+  color: #f7f7f7;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
+  margin-top: 0;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflowing text */
+  animation: moveLeftRight 5s linear infinite; /* Left to right animation */
+}
+
+/* Keyframes for moving the heading left to right */
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
   }
-  
+  50% {
+    transform: translateX(100%); /* Move to off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Return to start */
+  }
+}
+
+/* Flex container for other content */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
